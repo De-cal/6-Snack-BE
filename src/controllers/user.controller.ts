@@ -5,7 +5,7 @@ import { RequestHandler } from "express";
 /**
  * @swagger
  * tags:
- *   - name: SuperAdmin
+ *   - name: User
  *     description: 최고관리자 전용 엔드포인트
  *   - name: User
  *     description: 일반 사용자 관련 엔드포인트
@@ -17,7 +17,7 @@ import { RequestHandler } from "express";
  *   post:
  *     summary: (최고관리자) 유저 초대 생성
  *     description: SUPER_ADMIN 이 같은 회사에 새로운 사용자를 초대합니다. 초대 이메일이 발송되고 해당 초대 링크로 회원가입을 완료합니다.
- *     tags: [SuperAdmin]
+ *     tags: [User]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
@@ -118,7 +118,7 @@ const getUserInfo: RequestHandler<TUserIdParamsDto> = async (req, res, next) => 
  * /super-admin/users/{userId}:
  *   delete:
  *     summary: (최고관리자) 유저 삭제
- *     tags: [SuperAdmin]
+ *     tags: [User]
  *     parameters:
  *       - in: path
  *         name: userId
@@ -166,7 +166,7 @@ const deleteUser: RequestHandler<TUserIdParamsDto> = async (req, res, next) => {
  * /super-admin/users/{userId}/role:
  *   patch:
  *     summary: (최고관리자) 유저 권한 수정
- *     tags: [SuperAdmin]
+ *     tags: [User]
  *     parameters:
  *       - in: path
  *         name: userId
@@ -291,7 +291,7 @@ const updatePassword: RequestHandler<TUserIdParamsDto, any, TUpdatePasswordDto> 
  * /super-admin/users:
  *   get:
  *     summary: (최고관리자) 회사 유저 목록 조회
- *     tags: [SuperAdmin]
+ *     tags: [User]
  *     parameters:
  *       - in: query
  *         name: name
