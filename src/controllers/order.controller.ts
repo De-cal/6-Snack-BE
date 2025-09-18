@@ -10,14 +10,12 @@ import { parseNumberOrThrow } from "../utils/parseNumberOrThrow";
 import { AuthenticationError, NotFoundError } from "../types/error";
 import orderRepository from "../repositories/order.repository";
 
-
 /**
  * @swagger
  * tags:
  *   - name: Order
  *     description: 구매 API
  */
-
 
 /**
  * @swagger
@@ -307,7 +305,7 @@ const getOrders: RequestHandler<{}, {}, {}, TGetOrdersQueryDto> = async (req, re
  *                       imageUrl:
  *                         type: string
  *                         format: uri
- *                         example: "https://d2beg4tvxabcw1.cloudfront.net/products/haetae-homerunball.png"
+ *                         example: "https://d2fz535o8edlz5.cloudfront.net/products/haetae-homerunball.png"
  *                       quantity:
  *                         type: integer
  *                         example: 1
