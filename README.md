@@ -33,13 +33,14 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/42bd0632-4e3a-404f-aeb8-02576ac02d07" width="180" alt="AI 챗봇 도우미"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/ca2a3cff-ddc5-40ed-bd96-a933744eb2b0" width="180" alt="결제 모듈"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/4f56bb40-c95a-4c10-8a95-7831355372c0" width="180" alt="모바일 구매 내역 확인"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/ff45a00e-e42c-4d7f-8355-fb326ed719ef" width="180" alt="상품 상세와 담기"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/AI챗봇도우미움짤.gif" width="180" alt="AI 챗봇 도우미"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/결제모듈.gif" width="180" alt="결제 모듈"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/모바일구매내역확인.gif" width="180" alt="모바일 구매 내역 확인"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/상품상세와담기움짤.gif" width="180" alt="상품 상세와 담기"></td>
     </tr>
   </tbody>
-    <thead>
+    
+  <thead>
     <tr>
       <th align="center">스낵 예산 관리</th>
       <th align="center">찜하기 해제 기능</th>
@@ -49,10 +50,10 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/25c63f64-8f8e-492b-bf48-f8e5f6f826d6" width="180" alt="스낵 예산 관리"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/2c8a665c-2956-4273-bd68-a146ff3c645f" width="180" alt="찜하기 해제 기능"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/efec779a-5d3b-41fd-8158-f50b9826c240" width="180" alt="카테고리 정렬 둘러보기"></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/4f5850e2-051d-4383-9143-3852a7f71174" width="180" alt="회원 관리 모바일"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/스낵예산관리.gif" width="180" alt="스낵 예산 관리"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/찜하기해제기능움짤.gif" width="180" alt="찜하기 해제 기능"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/카테고리정렬둘러보기.gif" width="180" alt="카테고리 정렬 둘러보기"></td>
+      <td align="center"><img src="https://rakaso598.github.io/portfolio/snack/회원관리모바일.gif" width="180" alt="회원 관리 모바일"></td>
     </tr>
   </tbody>
 </table>
@@ -69,7 +70,7 @@
   <summary><h3>시스템 아키텍쳐 보기</h3></summary>
   
   <p align="center">
-    <img width="596" height="609" alt="image" src="https://github.com/user-attachments/assets/821bee5c-7363-4af1-ba2c-eaedb85c02c4" />
+    <img width="1100" alt="image" src="https://rakaso598.github.io/portfolio/snack/images/스낵BE시스템아키텍처.png" />
   </p>
   
 </details>
@@ -79,7 +80,7 @@
 <details>
   <summary><h3>BE 기술 스택 한눈에 보기</h3></summary>
   
-<img width="1076" height="565" alt="image" src="https://github.com/user-attachments/assets/d2a8c502-9d99-4c6f-a6e5-8bef6e336e11" />
+<img width="1100" alt="image" src="https://rakaso598.github.io/portfolio/snack/images/스낵BE기술스택.png" />
   
 </details>
 
@@ -293,7 +294,7 @@ src/
 
 ### **백엔드 - 장바구니와 주문 기록의 분리를 통한 결제 시스템 안정화**
 
-<img width="1106" height="589" alt="image" src="https://github.com/user-attachments/assets/5f50ef9d-1a3d-40ad-9236-d74e04c8c873" />
+<img width="1106" height="589" alt="image" src="https://rakaso598.github.io/portfolio/snack/images/스낵BE트러블슈팅DB.png" />
 
 <details>
   <summary>1. 문제점 (Problem)</summary>
